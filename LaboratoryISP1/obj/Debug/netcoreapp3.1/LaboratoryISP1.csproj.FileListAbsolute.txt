@@ -10,3 +10,4 @@ D:\шо\LaboratoryISP1\obj\Debug\netcoreapp3.1\LaboratoryISP1.csproj.CoreCompile
 D:\шо\LaboratoryISP1\obj\Debug\netcoreapp3.1\LaboratoryISP1.dll
 D:\шо\LaboratoryISP1\obj\Debug\netcoreapp3.1\LaboratoryISP1.pdb
 D:\шо\LaboratoryISP1\obj\Debug\netcoreapp3.1\LaboratoryISP1.genruntimeconfig.cache
+D:\шо\LaboratoryISP1\obj\Debug\netcoreapp3.1\LaboratoryISP1.csprojAssemblyReference.cache
