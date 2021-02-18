@@ -1,0 +1,12 @@
+D:\шо\LaboratoryISP1\bin\Debug\netcoreapp3.1\LaboratoryISP1.exe
+D:\шо\LaboratoryISP1\bin\Debug\netcoreapp3.1\LaboratoryISP1.deps.json
+D:\шо\LaboratoryISP1\bin\Debug\netcoreapp3.1\LaboratoryISP1.runtimeconfig.json
+D:\шо\LaboratoryISP1\bin\Debug\netcoreapp3.1\LaboratoryISP1.runtimeconfig.dev.json
+D:\шо\LaboratoryISP1\bin\Debug\netcoreapp3.1\LaboratoryISP1.dll
+D:\шо\LaboratoryISP1\bin\Debug\netcoreapp3.1\LaboratoryISP1.pdb
+D:\шо\LaboratoryISP1\obj\Debug\netcoreapp3.1\LaboratoryISP1.AssemblyInfoInputs.cache
+D:\шо\LaboratoryISP1\obj\Debug\netcoreapp3.1\LaboratoryISP1.AssemblyInfo.cs
+D:\шо\LaboratoryISP1\obj\Debug\netcoreapp3.1\LaboratoryISP1.csproj.CoreCompileInputs.cache
+D:\шо\LaboratoryISP1\obj\Debug\netcoreapp3.1\LaboratoryISP1.dll
+D:\шо\LaboratoryISP1\obj\Debug\netcoreapp3.1\LaboratoryISP1.pdb
+D:\шо\LaboratoryISP1\obj\Debug\netcoreapp3.1\LaboratoryISP1.genruntimeconfig.cache
