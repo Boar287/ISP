@@ -99,6 +99,5 @@ namespace Laba3_task1
                 }
             }
         }
-
     }
 }
