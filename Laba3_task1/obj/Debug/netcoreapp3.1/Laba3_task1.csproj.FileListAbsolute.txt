@@ -1,0 +1,13 @@
+D:\ProjectC#\Laba3\Laba3_task1\bin\Debug\netcoreapp3.1\Laba3_task1.exe
+D:\ProjectC#\Laba3\Laba3_task1\bin\Debug\netcoreapp3.1\Laba3_task1.deps.json
+D:\ProjectC#\Laba3\Laba3_task1\bin\Debug\netcoreapp3.1\Laba3_task1.runtimeconfig.json
+D:\ProjectC#\Laba3\Laba3_task1\bin\Debug\netcoreapp3.1\Laba3_task1.runtimeconfig.dev.json
+D:\ProjectC#\Laba3\Laba3_task1\bin\Debug\netcoreapp3.1\Laba3_task1.dll
+D:\ProjectC#\Laba3\Laba3_task1\bin\Debug\netcoreapp3.1\Laba3_task1.pdb
+D:\ProjectC#\Laba3\Laba3_task1\obj\Debug\netcoreapp3.1\Laba3_task1.csprojAssemblyReference.cache
+D:\ProjectC#\Laba3\Laba3_task1\obj\Debug\netcoreapp3.1\Laba3_task1.AssemblyInfoInputs.cache
+D:\ProjectC#\Laba3\Laba3_task1\obj\Debug\netcoreapp3.1\Laba3_task1.AssemblyInfo.cs
+D:\ProjectC#\Laba3\Laba3_task1\obj\Debug\netcoreapp3.1\Laba3_task1.csproj.CoreCompileInputs.cache
+D:\ProjectC#\Laba3\Laba3_task1\obj\Debug\netcoreapp3.1\Laba3_task1.dll
+D:\ProjectC#\Laba3\Laba3_task1\obj\Debug\netcoreapp3.1\Laba3_task1.pdb
+D:\ProjectC#\Laba3\Laba3_task1\obj\Debug\netcoreapp3.1\Laba3_task1.genruntimeconfig.cache
