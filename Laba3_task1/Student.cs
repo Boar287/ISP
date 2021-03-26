@@ -1,10 +1,14 @@
-﻿using System;
+using System;
 using System.Text;
 
 namespace Laba3_task1
 {
     class Student : Human
     {
+        public Student()
+        {
+            Id = Guid.NewGuid().ToString();
+        }
         public bool StateStudent { get; private set; }
         public PersonalData PersDataOfStudent = new PersonalData();
         private string Id;
@@ -58,7 +62,6 @@ namespace Laba3_task1
             AverageMark = Convert.ToDouble(Console.ReadLine());
             Console.Write(" Student's number of retakes:");
             NumberOfRetakes = int.Parse(Console.ReadLine());
-            Id = Guid.NewGuid().ToString();
             Console.WriteLine();
         }
         public void GetStudentData()
