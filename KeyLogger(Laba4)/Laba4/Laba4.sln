@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba4", "Laba4.csproj", "{BEDCD718-43F5-48AC-A971-62A25A5171C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyLog", "..\..\Laba4\KeyLogger\MyDll\KeyLog.csproj", "{9577BA51-0C87-4114-9963-3B73E8B0D0F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEDCD718-43F5-48AC-A971-62A25A5171C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDCD718-43F5-48AC-A971-62A25A5171C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDCD718-43F5-48AC-A971-62A25A5171C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDCD718-43F5-48AC-A971-62A25A5171C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9577BA51-0C87-4114-9963-3B73E8B0D0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9577BA51-0C87-4114-9963-3B73E8B0D0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9577BA51-0C87-4114-9963-3B73E8B0D0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9577BA51-0C87-4114-9963-3B73E8B0D0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F32672D4-A0D3-4B7C-961A-022F9B4192A0}
+	EndGlobalSection
+EndGlobal
