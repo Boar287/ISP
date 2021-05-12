@@ -295,5 +295,4 @@ namespace Laba5
             ClassName = "Warrior";
         }
     }
-
 }
