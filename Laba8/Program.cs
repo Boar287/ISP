@@ -21,8 +21,7 @@ namespace Laba5
             if(e.TheDamagePassed==false)
                 Console.WriteLine(e.TypeOfHit);
             else 
-                Console.WriteLine($"{e.TypeOfHit} -{Convert.ToInt32(e.Damage + e.RandFactor + e.TargetArmorRate / 1000 * (e.Damage + e.RandFactor))} ({Convert.ToInt32(e.TargetArmorRate / 1000 * (e.Damage + e.RandFactor))} Blocked)");
-            
+                Console.WriteLine($"{e.TypeOfHit} -{Convert.ToInt32(e.Damage + e.RandFactor + e.TargetArmorRate / 1000 * (e.Damage + e.RandFactor))} ({Convert.ToInt32(e.TargetArmorRate / 1000 * (e.Damage + e.RandFactor))} Blocked)");            
         }
         static void Main(string[] args)
         {
@@ -151,8 +150,7 @@ namespace Laba5
                     warningMessage?.Invoke("Wrong option");
                     BattleInterface(player, enemy);
                     PerformPlayerAction(player, enemy);
-                }
-                
+                }                
             }
             else
             {
@@ -195,8 +193,7 @@ namespace Laba5
             else if(player.Invise!=0)
                 Console.WriteLine("Player is invisible");
             else if (enemy.Stun != 0)            
-               Console.WriteLine("Enemy is in stun");
-            
+               Console.WriteLine("Enemy is in stun");            
         }
 
         static void CreatingCharacter(PlayerAndEnemyInfo Info)
@@ -525,7 +522,6 @@ namespace Laba5
                 return;
             }
         }
-
         static void GetInfo(IShowInfo[]items)
         {
             Array.Sort(items);
