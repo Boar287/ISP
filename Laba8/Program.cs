@@ -201,47 +201,40 @@ namespace Laba5
 
         static void CreatingCharacter(PlayerAndEnemyInfo Info)
         {
-            try
+            Console.Clear();
+            Console.WriteLine("Choose the level of difficulty");
+            Console.WriteLine("\t1-Easy. Enemies have normal amount of health,damage and armor");
+            Console.WriteLine("\t2-Moderate. Enemies have +20% to thier health,damage and armor");
+            Console.WriteLine("\t3-Hard. Enemies have +25% to thier health,damage and armor,they can use abilities\n");
+            ConsoleKey Choice = Console.ReadKey().Key;
+            DifficultyLevel difficultyLevel = 0;
+            switch (Choice)
             {
-                Console.Clear();
-                Console.WriteLine("Choose the level of difficulty");
-                Console.WriteLine("\t1-Easy. Enemies have normal amount of health,damage and armor");
-                Console.WriteLine("\t2-Moderate. Enemies have +20% to thier health,damage and armor");
-                Console.WriteLine("\t3-Hard. Enemies have +25% to thier health,damage and armor,they can use abilities\n");
-                ConsoleKey Choice = Console.ReadKey().Key;
-                DifficultyLevel difficultyLevel = 0;
-                switch (Choice)
-                {
-                    case ConsoleKey.D1:
-                        difficultyLevel = DifficultyLevel.Easy;
-                        break;
-                    case ConsoleKey.D2:
-                        difficultyLevel = DifficultyLevel.Moderate;
-                        break;
-                    case ConsoleKey.D3:
-                        difficultyLevel = DifficultyLevel.Hard;
-                        break;
-                    default:
-                        warningMessage?.Invoke("You have chosen wrong option...\nTry again");
-                        CreatingCharacter(Info);
-                        break;
-                }
-                Console.Clear();
-                Player CurrentPlayer = ChoosingClass();
-                ChoosingWeapon(CurrentPlayer);
-                ChoosingPotions(CurrentPlayer);
-                Enemy CurrentEnemy = ChoosingEnemies(difficultyLevel);
-                Info(CurrentPlayer, CurrentEnemy);
-                Console.Write("Press any key to continue...");
-                Console.ReadLine();
-                Console.Clear();
-                BattleProcess(CurrentPlayer, CurrentEnemy);
-                Environment.Exit(0);
+                case ConsoleKey.D1:
+                    difficultyLevel = DifficultyLevel.Easy;
+                    break;
+                case ConsoleKey.D2:
+                    difficultyLevel = DifficultyLevel.Moderate;
+                    break;
+                case ConsoleKey.D3:
+                    difficultyLevel = DifficultyLevel.Hard;
+                    break;
+                default:
+                    warningMessage?.Invoke("You have chosen wrong option...\nTry again");
+                     CreatingCharacter(Info);
+                    break;
             }
-            catch
-            {
-                Console.WriteLine("Wrong input format\nThe application ends....");
-            }
+            Console.Clear();
+            Player CurrentPlayer = ChoosingClass();
+            ChoosingWeapon(CurrentPlayer);
+            ChoosingPotions(CurrentPlayer);
+            Enemy CurrentEnemy = ChoosingEnemies(difficultyLevel);
+            Info(CurrentPlayer, CurrentEnemy);
+            Console.Write("Press any key to continue...");
+            Console.ReadLine();
+            Console.Clear();
+            BattleProcess(CurrentPlayer, CurrentEnemy);
+            Environment.Exit(0);                
         }  
         
         static Player ChoosingClass()
